@@ -1,11 +1,17 @@
 body{
     background: linear-gradient(lightpink 0%,rgb(156, 82, 93) 40%, rgb(83, 38, 45)100%);
 }
-.demo
-	%h2 Default
-	.scrollbar
-		.fake-content
-		
+
+.h-scrollbar {
+    overflow-x: scroll;
+    width: 300px;
+}
+
+.h-scrollbar div {
+    width: 1000px;
+    display:block;
+}	
+
 .profil{
     display: flex;
     justify-content: center;
