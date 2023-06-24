@@ -1,0 +1,70 @@
+*{
+    margin: auto;
+    padding: 1px;
+}
+
+    body{
+        background-color: rgb(187, 187, 187);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+            header,
+            section#sosmed,
+            #sosmed-content, footer{
+                width: 600px;
+                margin: auto;
+                padding: 15px;
+                text-align: justify;
+            }
+
+header h1{
+    float: left;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 590px;
+    border-bottom:5px solid black ;
+}
+
+        section#sosmed h4 #sosmed-content{
+            width: 750px;
+            margin: auto;
+            float: left;
+        }
+
+                #sosmed-content img{
+                    width: 600px;
+                    float: left;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    margin-top: 1px;
+                    text-align: justify;
+                }
+
+                    section#sosmed h4{
+                        margin-left: 20px;
+                    }
+#sosmed-content #deskripsi-sosmed {
+    width: 590px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+        #sosmed-content #deskripsi-sosmed p{
+            text-align: justify;
+            width: 590px;
+            float: left;
+            color: rgb(113, 52, 52);
+        }
+
+                .Fix-container{
+                    clear: both;
+                }
+
+footer{
+    background-color: white;
+    color:rgb(255, 41, 41); 
+    margin-left: 470px;
+    margin-right: 500px;
+}

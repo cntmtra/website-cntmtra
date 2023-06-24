@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   background: linear-gradient(white 15%, rgb(187, 180, 180)40%, rgb(107, 105, 105)100%);
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header, 
+section#Profil, 
+section#HOBY, footer{
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+header img{
+    width: 120px;
+    float: left;
+}
+
+header h1{
+    float: left;
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 600px;
+    border-bottom: 5px solid black;
+}
+
+footer
+{
+    background-color: white;
+    color :red;
+}
+section#Profil h1, section#HOBY h1{
+    margin-bottom: 20px;
+}
+
+section#Profil h1, section#HOBY h1{
+    text-align: center;
+    font-size: 32px;
+    background-color: rgb(92, 37, 37);
+    color: white;
+    padding: 10px;
+}
+
+#profil-content{
+    width: 700px;
+    margin: auto;   
+}
+
+#profil-content img{
+    width: 150px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#profil-content #deskripsi-profil{
+    width: 450px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#profil-content #deskripsi-profil p {
+    text-align: justify;
+    width: 450px;
+}
+
+.item-HOBY{
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.Fix-container{
+    clear: both;
+}
+
+#HOBY p{
+    text-align: justify;
+    width: 650px;
+    margin-left: 10px;
+}
+
+#HOBY img{
+    width: 650px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+section#button{
+    margin-left: 100px;
+}

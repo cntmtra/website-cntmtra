@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(lightpink 0%,rgb(156, 82, 93) 40%, rgb(83, 38, 45)100%);
+}
+
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.profil img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.profil h2{
+    color: rgb(65, 28, 33);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profil h5{
+    color: rgb(255, 255, 255);
+    transform: translateY(-10px);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.biodata{
+    background: linear-gradient(#ffffff 0%, rgba(255, 255, 255, 0.693) 40%, rgba(88, 85, 85, 0)100%);
+    padding-bottom: 200px;
+}
+
+.profil-kampus{
+    color: white;
+}
+
+.footer{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.sosmed a{
+    color: black;
+    font-size: 20px;
+}
+
+.watermark{
+    padding-top: 20px;
+}
